@@ -21,7 +21,6 @@ for i in text:
         i = ''
     temp += i
 
-#separar em uma lista de 5 elementos cada chunk
 temp = tw.wrap(temp, 5)
 
 for chunk in temp:
