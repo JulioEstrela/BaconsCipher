@@ -1,7 +1,7 @@
 import textwrap as tw
 import string
 
-alphabet = list(string.ascii_lowercase)
+alphabet = tuple(string.ascii_lowercase)
 
 baconCode = ["AAAAA", "AAAAB", "AAABA", "AAABB", "AABAA", "AABAB", "AABBA",
 "AABBB", "ABAAA", "ABAAB", "ABABA", "ABABB", "ABBAA", "ABBAB", "ABBBA",
